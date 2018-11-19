@@ -45,6 +45,7 @@ li {
   color: #999;
   font-weight: 100;
   line-height: 1.8;
+  font-size: 1.4em;
 }
 
 .page-container {
@@ -244,7 +245,6 @@ icon-menu-close {
 }
 
 .breadcrumb {
-  margin: 2em 0;
   list-style: none;
   overflow: hidden;
   float: right;
@@ -268,16 +268,21 @@ icon-menu-close {
 }
 
 .wrapper {
-  display: table;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 10em;
+  margin-top: 20px;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about .content {
+  padding: 0px 15% 0px 15%;
 }
 
 .inner {
-  display: table-cell;
+  /* display: table-cell; */
   padding: 0 4em;
-  max-width: 400px;
+  /* max-width: 400px; */
   float: left;
   text-align: center;
 }
@@ -421,7 +426,6 @@ img {
 .feature-image img {
   position: relative;
   width: 100%;
-  transform: rotate(180deg);
 }
 
 .footer {
